@@ -32,25 +32,10 @@ An easy way that we can erase this confusion is by using RPN.
 
 RPN places two or more operands followed by one total less operator. Restructuring the above equations:
 ```
-2 2 + 3 3 + * 
-```
-```
-4 6 *
-```
-```
-24
+2 2 + 3 3 + *     =    4 6 *    =    24
 ```
 and
 ```
-2 2 3 * 3 + +
-```
-```
-2 6 3 + +
-```
-```
-2 9 +
-```
-```
-11
+2 2 3 * 3 + +    =    2 6 3 + +    =    2 9 +    =    11
 ```
 There is only one way to write each RPN equation, therefore reducing the syntax and coding effort involved
