@@ -7,9 +7,11 @@ Utilize data structures to evaluate expressions and provide a result
 
 ### Reverse Polish Notation (RPN)
 Consider an expression:
+
 '''
 (2 + 2) * (3 + 3)
 '''
+
 This results in 4 * 6, which equals 24.
 Now let's take out the parentheses and you get:
 '''
